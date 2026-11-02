@@ -1,0 +1,35 @@
+name: 问题反馈
+description: 报告安装、事实准确性或口播质量问题
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: 请使用脱敏或虚构资料，不要提交电话、详细住址、客户隐私或凭据。
+  - type: textarea
+    id: environment
+    attributes:
+      label: 使用环境与安装方式
+      description: 使用的 AI 工具、可获得的版本信息、安装目录或安装步骤。
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: 复现输入或步骤
+      description: 写作问题请给出房源事实与提示词；安装问题请给出复现步骤。
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+      description: 贴出相关输出片段或错误信息。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+      description: 说明具体哪里需要改变，以及输入中的哪些事实支持这个判断。
+    validations:
+      required: true

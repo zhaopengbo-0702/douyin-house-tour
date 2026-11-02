@@ -1,0 +1,23 @@
+name: 改进建议
+description: 提出技能、案例或文档改进
+title: "[建议] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 当前想完成什么任务，遇到了什么具体限制？请使用脱敏或虚构案例。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议的变化
+      description: 希望技能、案例或文档怎样改进？
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: 示例输入与期望表现
+      description: 可选。用具体例子说明改进如何发挥作用。
