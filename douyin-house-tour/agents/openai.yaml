@@ -1,0 +1,4 @@
+interface:
+  display_name: "抖音卖房口播"
+  short_description: "主打50至200平方米家庭房，兼容各类空间，从真实细节写出有新意的卖房口播。"
+  default_prompt: "使用 $douyin-house-tour，从这套房的实际条件找到独特卖点，写一版有冲击力、自然顺口、不套模板的抖音口播。"
